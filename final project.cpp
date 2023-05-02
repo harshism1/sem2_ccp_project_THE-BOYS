@@ -86,8 +86,8 @@ int main()
                     }
                     else
                     {
-                    	cout<<"ID Not found"<<endl<<endl;
-                        goto c;
+                    	
+                        break;
                     }
                 }
                 if (id1 == f[j].ID)

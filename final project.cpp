@@ -57,7 +57,7 @@ int main()
 
                         if (id1 == cl[l])
                         {
-                            cout << "ID not found" << endl;
+                            cout << "you already cancelled appointment" << endl;
                             goto c;
                         }
                     }
@@ -82,7 +82,7 @@ int main()
 
                     if (id1 == cl[l])
                     {
-                        cout << "ID not found" << endl<<endl;
+                        cout << "you already cancelled appointment" << endl<<endl;
                     }
                     else
                     {

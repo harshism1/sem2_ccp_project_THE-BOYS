@@ -39,7 +39,11 @@ int main()
              << endl
              << endl;
         cin >> num;
-        if (num == 2)
+        if(num==1)
+        {
+        	
+		}
+        else if (num == 2)
         {
             cout << "Enter Your ID:";
             cin >> id;
@@ -64,10 +68,6 @@ int main()
                     cout << f[j].name << " Your Are appointed on the " << f[j].date << endl;
                     break;
                 }
-                else{
-                cout<<"invalid id"<<endl;
-				break;	
-				}
             }
         }
         else if (num == 3)
@@ -82,11 +82,12 @@ int main()
 
                     if (id1 == cl[l])
                     {
-                        cout << "ID not found" << endl;
+                        cout << "ID not found" << endl<<endl;
                     }
                     else
                     {
-                        break;
+                    	cout<<"ID Not found"<<endl<<endl;
+                        goto c;
                     }
                 }
                 if (id1 == f[j].ID)
@@ -97,19 +98,19 @@ int main()
                     cout << f[j].name << " Your appointment is canceled!!! " << endl<<endl;
                     break;
                 }
-                else{
-                	cout<<"invalid id"<<endl;
-                	break;
-				}
             }
         }
         else if (num == 4)
         {
             break;
         }
-    c:
-        f[i].get(num);
-    }
+    
+    
+        c:
+        	{
+			}
+
+   }
 
     return 0;
 }

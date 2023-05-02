@@ -41,7 +41,7 @@ int main()
         cin >> num;
         if(num==1)
         {
-        	
+        	f[i].get(num);
 		}
         else if (num == 2)
         {
